@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-vinyl-sourcemaps-apply-$1/ \
+ https://github.com/floridoo/vinyl-sourcemaps-apply/tags .*/archive/.*/v?([\d\.]+).tar.gz
